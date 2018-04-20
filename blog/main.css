@@ -1,0 +1,256 @@
+.clearfixe{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav{
+    background:transparent;
+    height:50px;
+}
+#banner{
+    background:rgba(0,0,0,0.2);
+    height: 700px;
+}
+nav ul {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin: 0;
+}
+nav ul li,nav .logo{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    height: inherit;
+    display: inline-block;
+    color: #fafafa;
+}
+nav .logo a{
+    float: left;
+    font-size: 20px;
+    font-weight:700 ;
+    letter-spacing: 2px;
+    padding-left:10px;
+    text-decoration: none;
+    font-family: 黑体;
+    color: #fafafa;
+}
+#banner .inner{
+    margin:0 auto;
+    text-align:center;
+    max-width: 280px;
+    position: relative;
+    top:140px;
+    font-family: 黑体;
+    color: #fafafa;
+}
+#banner button{
+    border: none;
+    background: #079b75;
+    padding: 14px 30px;
+    border-radius: 5px;
+    font-family: 黑体;
+    font-size: 10px;
+    color: #fafafa;
+}
+#banner h1{
+    letter-spacing: 5px;
+    border-top: solid 1px #fafafa;
+    border-bottom: solid 1px #fafafa;
+    border-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#banner .inner .heading{
+    line-height: 30px;
+    margin: 30px 0px;
+    font-family: "Yu Gothic"
+}
+#banner .inner .more{
+    margin-top:280px ;
+}
+.section_1{
+    text-align: center;
+    background:#089db0;
+    color: #fff;
+    padding: 100px 0;
+    font-family: 黑体;
+ }
+.section_1 .hr{
+    width: 60%;
+    height: 2px;
+    margin: 20px auto;
+    background: white;
+}
+.section_1 .wrapper{
+    max-width:1008px;
+    margin: 0 auto;
+}
+.section_1 .sub-heading{
+    font-size: 18px;
+    font-family: "Yu Gothic"
+}
+.section_1 .icon-group{
+    margin-top:50px;
+}
+.section_1 .icon-group .icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #02ad9c;
+    transform: rotate(45deg);
+    margin:30px ;
+}
+.section_2{
+    color:#fff ;
+    font-family: 黑体;
+    overflow: hidden;
+}
+.section_2 .article{
+    height: inherit;
+    font-size: 0;
+}
+.section_2 .article{
+    background: #2f3651;
+}
+.section_2 .else-head{
+    font-size:30px ;
+}
+.section_2  .img-section{
+    width:45%;
+    height:inherit;
+    display: inline-block;
+}
+.img-section img{
+    width:100%;
+    height:inherit;
+}
+.section_2 .text-section{
+    width:40%;
+    position: relative;
+    top:140px;
+    left:160px;
+}
+.article >div{
+    float: left;
+}
+.text-section h2{
+    font-size: 25px;
+}
+.text-section .sub-heading{
+    font-size: 20px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.article:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Yu Gothic";
+}
+
+.section_2  .img-section2{
+    width:45%;
+    height:inherit;
+    display: inline-block;
+    float: right;
+}
+.img-section2 img{
+    width:100%;
+    height:inherit;
+}
+#Diff_art{
+
+    background: #405257;
+}
+#Diff_art_1{
+    background: #b5b9b6;
+}
+.section_3 {
+    background: #262149;
+    margin-top: 0;
+    color: #cccccc;
+    font-family: "Yu Gothic";
+    text-align: center;
+    overflow: hidden;
+    height: 1580px;
+}
+.section_3 .heading-wrapper h2{
+    margin-top: 0px;
+    padding-top:60px ;
+}
+.section_3 .wrapper{
+ margin: 0px auto;
+    width:1080px ;
+}
+.section_3 .hr{
+    background: #373259;
+    width:70% ;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.section_3 .card-group{
+    width: inherit;
+    margin-top: 40px;
+}
+.card{
+    width: 40%;
+    min-height: 300px;
+    float: left;
+    padding: 50px;
+   display: inline-block;
+}
+.card:nth-child(1){
+    background: rgba(119, 53, 135, 0.2);
+}
+ .card:nth-child(2){
+    background: rgba(72, 24, 128, 0.2);
+}
+.card:nth-child(3){
+    background: rgba(94, 126, 84, 0.2);
+}
+.card:nth-child(4){
+    background: rgba(137, 51, 43, 0.2);
+}
+.card:nth-child(5){
+    background: rgba(13, 138, 130, 0.2);
+}
+.card:nth-child(6){
+    background: rgba(38, 138, 10, 0.2);
+}
+footer{
+    background: #089db0;
+    color: #ffffff;
+    min-height: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 黑体;
+}
+footer .share-group{
+    margin-top: 0;
+    display: block;
+    list-style: none;
+    padding: 50px;
+    margin-bottom: 0;
+}
+.share-group li{
+    display: inline-block;
+    padding: 10px;
+}
+.main-wrapper{
+    background: #444 url(img/snow.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
